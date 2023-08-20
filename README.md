@@ -84,6 +84,7 @@ It only includes countries that fall within the forest area range and have recor
 
 ![](pic10.png)
 
-For problem 2, the names of countries that have a forest area (in square kilometres) greater than the average forest area of all countries in the "High Income" income group.
+For problem 2, the names of countries that have a forest area (in square kilometres) greater than the average forest area of all countries in the "High Income" income group. <br>
+This query provides insights into the income groups of countries that have a total area within the specified range, helping to categorize and understand the distribution of income groups within that particular land area range.
 
 
