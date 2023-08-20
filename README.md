@@ -28,17 +28,30 @@ The Forest area table had 4 columns; country code, country name, year and forest
 
 ![](pic1.png)
 
-The Land area table had 4 columns; country code, country name, year and total area per square mile. <br>
+Then, you check to see if the table has been created.
 
 ![](pic2.png)
 
-The Regions table also had 4 columns; country name, country code, region and income group. <br>
+The Land area table had 4 columns; country code, country name, year and total area per square mile. <br>
 
 ![](pic3.png)
+
+Then, you check to see if the table has been created.
+
+![](pic4.png)
+
+The Regions table also had 4 columns; country name, country code, region and income group. <br>
+
+![](pic5.png)
+
+Then, you check to see if the table has been created.
+
+![](pic6.png)
 
 The next step was to import the .csv files into the table to put rows and values into our table created. There are two ways to import files into the table in PostgreSQL.
 
 Import the files by right-clicking on the table name on the right-hand side and then selecting Import/Export data and then selecting the location/folder where your .csv file is located and then importing. <br>
+
 OR <br>
 
 Writing up a code or query in the query tool. The code to write is
@@ -51,6 +64,15 @@ DELIMITER ','
 
 CSV HEADER;
 
+the file is now uploaded into the tables in PostgreSQL.
 
+After the uploading was done, the next step was to check if your tables had values by running the query SELECT * FROM  table_name which they did. <br>
 
+For forest area table
+![](pic7.png)
 
+For land area table
+![](pic8.png)
+
+For regions table 
+![](pic9.png)
