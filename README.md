@@ -74,5 +74,16 @@ For forest area table
 For land area table
 ![](pic8.png)
 
-For regions table 
+For the regions table, I cleaned the regions table by removing a region called World as it was not a region and It was included my mistake.
 ![](pic9.png)
+
+Now, we had our full tables to work with, we decided to answer and solve the business problems.
+
+For problem 1, the total number of countries involved in deforestation. <br>
+It only includes countries that fall within the forest area range and have recorded deforestation (forest area is either negative or NULL). The DISTINCT keyword ensures that each country appears only once in the result. The result will be ordered by country name. We have 14 countries. 
+
+![](pic10.png)
+
+For problem 2, the names of countries that have a forest area (in square kilometres) greater than the average forest area of all countries in the "High Income" income group.
+
+
