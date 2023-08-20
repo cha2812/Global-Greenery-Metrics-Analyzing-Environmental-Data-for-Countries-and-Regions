@@ -25,13 +25,30 @@ The Regions table also had 4 columns; country name, country code, region and inc
 
 The first step I took was to create a database called Greenery. After creating the Greenery Database, the next step was creating 3 tables named forest_area, land_area and regions. <br>
 The Forest area table had 4 columns; country code, country name, year and forest area per square kilometre. <br>
+
 ![](pic1.png)
 
 The Land area table had 4 columns; country code, country name, year and total area per square mile. <br>
+
 ![](pic2.png)
 
 The Regions table also had 4 columns; country name, country code, region and income group. <br>
+
 ![](pic3.png)
+
+The next step was to import the .csv files into the table to put rows and values into our table created. There are two ways to import files into the table in PostgreSQL.
+
+Import the files by right-clicking on the table name on the right-hand side and then selecting Import/Export data and then selecting the location/folder where your .csv file is located and then importing. <br>
+OR
+Writing up a code or query in the query tool. The code to write is
+
+COPY table_name
+
+FROM 'file-path/location of file'
+
+DELIMITER ','
+
+CSV HEADER;
 
 
 
