@@ -39,7 +39,8 @@ The Regions table also had 4 columns; country name, country code, region and inc
 The next step was to import the .csv files into the table to put rows and values into our table created. There are two ways to import files into the table in PostgreSQL.
 
 Import the files by right-clicking on the table name on the right-hand side and then selecting Import/Export data and then selecting the location/folder where your .csv file is located and then importing. <br>
-OR
+OR <br>
+
 Writing up a code or query in the query tool. The code to write is
 
 COPY table_name
