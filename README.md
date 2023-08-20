@@ -18,8 +18,21 @@ Hint: calculate the average total areas for the 3 other categories.
 
 
 ## Data Analysis
-The analysis was done using three(3).csv files that were provided. The 3 tables provided were the Forest area table, the Land area table and the Regions table. 
+The analysis was done using three(3).csv files that were provided. The 3 tables provided were the Forest area table, the Land area table and the Regions table. <br>
 The Forest area table had 4 columns; country code, country name, year and forest area per square kilometre. <br>
 The Land area table had 4 columns; country code, country name, year and total area per square mile. <br>
 The Regions table also had 4 columns; country name, country code, region and income group. <br>
+
+The first step I took was to create a database called Greenery. After creating the Greenery Database, the next step was creating 3 tables named forest_area, land_area and regions. <br>
+The Forest area table had 4 columns; country code, country name, year and forest area per square kilometre. <br>
+![](pic1.png)
+
+The Land area table had 4 columns; country code, country name, year and total area per square mile. <br>
+![](pic2.png)
+
+The Regions table also had 4 columns; country name, country code, region and income group. <br>
+![](pic3.png)
+
+
+
 
