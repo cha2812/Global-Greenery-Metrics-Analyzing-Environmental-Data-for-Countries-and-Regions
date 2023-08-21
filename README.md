@@ -117,7 +117,7 @@ Rank countries within each region based on the forest area. Selects the top coun
 
 
 ## Conclusion
-In delving into the depths of our greenery dataset, I have found invaluable insights that explain Through meticulous data manipulation and analysis related to forest and land areas, income groups, and regional classifications. <br>
+In delving into the depths of our greenery dataset, I have found invaluable insights that explain through meticulous data manipulation and analysis related to forest and land areas, income groups, and regional classifications. <br>
 I sought to Explore the impact of deforestation by identifying countries involved in deforestation activities. Discover the nations that have experienced forest area reduction and deforestation, shedding light on critical environmental challenges <br>
 Gained a great perspective on income groups and their distribution within specified total area ranges. <br>
 Discovered countries with forest areas exceeding the average within the 'High Income' income group.  Uncover the total forest area for these nations and compare it to other income categories. These insights offer a clear picture of how wealth correlates with forest preservation efforts. <br>
