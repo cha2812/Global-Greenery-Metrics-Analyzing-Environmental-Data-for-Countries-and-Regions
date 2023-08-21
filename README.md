@@ -79,12 +79,47 @@ For the regions table, I cleaned the regions table by removing a region called W
 
 Now, we had our full tables to work with, we decided to answer and solve the business problems.
 
-For problem 1, the total number of countries involved in deforestation. <br>
+1. The total number of countries involved in deforestation. <br>
 It only includes countries that fall within the forest area range and have recorded deforestation (forest area is either negative or NULL). The DISTINCT keyword ensures that each country appears only once in the result. The result will be ordered by country name. We have 14 countries. 
 
 ![](pic10.png)
 
-For problem 2, the names of countries that have a forest area (in square kilometres) greater than the average forest area of all countries in the "High Income" income group. <br>
+2. The names of countries that have a forest area (in square kilometres) greater than the average forest area of all countries in the "High Income" income group. <br>
 This query provides insights into the income groups of countries that have a total area within the specified range, helping to categorize and understand the distribution of income groups within that particular land area range.
 
+![](pic11.png)
+
+3. The names of countries that have a forest area (in square kilometres) greater than the average forest area of all countries in the "High Income" income group. <br>
+Retrieves the country names of countries with a forest area greater than the calculated average, along with the average itself. First of all, I had to find out the average itself so that I have an idea of what it was. The average forest area was 391,051.84
+
+![](pic12.png)
+
+Then now I could not find countries that have forest area greater than the average forest area.
+
+![](pic13.png)
+
+4. The average total area (in square miles) for countries in the "Upper Middle Income" income group. <br>
+The output sheds light on the average land area of countries falling within the "Upper Middle Income" income group. It helps in understanding the distribution of land sizes for countries with this particular income status.
+
+![](pic14.png)                                  ![](vis14.png)
+
+ 5. The total forest area (in square kilometres) for countries in the "High Income" income group. <br>
+This provides insights into the cumulative forested area in square kilometres for countries within the "High Income" income group. It helps in understanding the collective impact of forested areas for countries with this particular income status.
+
+![](pic15.png)                                  ![](vis15.png)
+ 
+ 6. Countries from each region or continent having the highest total forest area
+Rank countries within each region based on the forest area. Selects the top country with the highest forest area for each region.
+
+![](pic16.png)              
+
+![](vis16a.png)                                      ![](vis16b.png)
+
+
+## Conclusion
+In delving into the depths of our greenery dataset, I have found invaluable insights that explain Through meticulous data manipulation and analysis related to forest and land areas, income groups, and regional classifications. Explore the impact of deforestation with identifying countries involved in deforestation activities.
+
+
+
+The Company has 1000 invoices in its databases. The company sold 5,510 products at
 
